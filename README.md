@@ -2,7 +2,7 @@
 Contains python files to run my analysis on since 03282020
 
 This files are in the following order;
-temp_Load_Script.py
+Data_Correction/temp_Load_Script.py
 fluctuation_Save.py
 tp_Correlations_New.py
 
