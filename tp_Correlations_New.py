@@ -264,11 +264,11 @@ def two_Point_Correlations(pos1, pos2, apply_Filt = False, filt = 100e3):
         Bz_2 = process_Data(Bz_2, start_Dex, apply_Filt, filt)
         
         #### Fixing probe components ####
-        if (pos1 == 7):
+        if (pos1 == 7 or pos1 == 5):
             dum = Bt_1
             Bt_1 = Bz_1
             Bz_1 = dum
-        if (pos2 == 7):
+        if (pos2 == 7 or pos2 == 5):
             dum = Bt_2
             Bt_2 = Bz_2
             Bz_2 = dum
