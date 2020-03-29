@@ -96,10 +96,10 @@ def correlation(sing_1, sing_2, time, normalized = True):
     if normalized:
         normalization = np.zeros(tau.shape)    
         time_Window = time[-1] - time[0]
-        if (time_Window - np.abs(tau).any())/dt >= 16000:
+        if (time_Window - np.abs(tau).any())/dt >= 3000:
             normalization = dt/(time_Window - np.abs(tau) - dt)
         else:
-            normalization = 1/16000
+            normalization = 1/3000
         corr = normalization*corr
         
     return tau ,corr
