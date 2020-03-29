@@ -21,3 +21,12 @@ def finding_Index_Time(time_Data, time_Interest):
 
     #print('Outputing the index of interest')
     return output_Time
+
+
+def BMX_Pico_Read(filename):
+    """
+        Simple function which outputs the data as read.
+    """
+    data = np.loadtxt(filename, skiprows = 3, unpack = True)
+    
+    return data
