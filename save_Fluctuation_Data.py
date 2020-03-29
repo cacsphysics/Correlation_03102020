@@ -1,5 +1,5 @@
 import numpy as np
-import BMX
+import Carlos_Functions as BMX
 import sys  
 import os
 ###############################################################################################
