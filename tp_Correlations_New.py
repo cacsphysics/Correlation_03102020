@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pylab as plt
 import matplotlib.colors as mcolors
-import BMX
+import Carlos_Functions as BMX
 import scipy.signal as sps
 import numpy as np
 import sys
